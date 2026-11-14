@@ -478,3 +478,32 @@ if (footerYear) {
       );
     });
   });
+(function () {
+  function setupCourseCards() {
+    document.querySelectorAll("#courses .dt-card").forEach((card) => {
+      if (card.dataset.photoReady === "true") return;
+      card.dataset.photoReady = "true";
+
+      card.tabIndex = 0;
+
+      card.addEventListener("click", () => {
+        card.classList.toggle("dt-photo-open");
+      });
+
+      card.addEventListener("keydown", (event) => {
+        if (event.target !== card) return;
+
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          card.classList.toggle("dt-photo-open");
+        }
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", setupCourseCards);
+  } else {
+    setupCourseCards();
+  }
+})();
