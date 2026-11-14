@@ -69,7 +69,7 @@ header {
 }
 
 .brand {
-    font-size: 35px;
+    font-size: 38px;
     font-weight: 950;
     font-style: italic;
     line-height: .9;
@@ -79,13 +79,13 @@ header {
 
 .brand span {
     color: var(--yellow);
-    font-size: 46px;
+    font-size: 49px;
     margin-left: 5px
 }
 
 .brand small {
     display: block;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 5px;
     font-style: normal;
     font-weight: 600;
@@ -96,7 +96,7 @@ nav {
     display: flex;
     gap: 34px;
     align-items: center;
-    font-size: 14px
+    font-size: 17px
 }
 
 nav>a:not(.button):hover {
@@ -110,7 +110,7 @@ nav>a:not(.button):hover {
     gap: 24px;
     padding: 17px 25px;
     border-radius: 40px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 700;
     border: 0;
     transition: transform .2s, box-shadow .2s
@@ -122,7 +122,7 @@ nav>a:not(.button):hover {
 }
 
 .button span {
-    font-size: 21px
+    font-size: 24px
 }
 
 .yellow {
@@ -155,7 +155,7 @@ nav>a:not(.button):hover {
 }
 
 .eyebrow {
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 2px;
     background: #ffe983;
     border-radius: 20px;
@@ -165,7 +165,7 @@ nav>a:not(.button):hover {
 }
 
 h1 {
-    font-size: clamp(48px, 5.8vw, 86px);
+    font-size: clamp(51px, 5.8vw, 89px);
     line-height: 1.02;
     letter-spacing: -5px;
     margin: 25px 0 20px;
@@ -184,7 +184,7 @@ h1 em {
 }
 
 .hero-copy>p {
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 28px
 }
 
@@ -213,23 +213,23 @@ h1 em {
     gap: 13px;
     padding: 18px;
     box-shadow: 0 15px 35px #35106425;
-    font-size: 12px
+    font-size: 15px
 }
 
 .replay span {
-    font-size: 26px
+    font-size: 29px
 }
 
 .replay b {
     color: var(--yellow);
-    font-size: 22px
+    font-size: 25px
 }
 
 .hero-note {
     display: flex;
     align-items: center;
     gap: 12px;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.6;
     margin-top: 30px
 }
@@ -238,7 +238,7 @@ h1 em {
     background: white;
     border: 1px solid #dfd3ee;
     color: #cc3232;
-    font-size: 27px;
+    font-size: 30px;
     font-weight: 700;
     padding: 3px 11px;
     transform: rotate(-7deg)
@@ -248,7 +248,7 @@ h1 em {
     position: absolute;
     bottom: 24px;
     left: 5.5%;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 2px
 }
 
@@ -259,14 +259,14 @@ h1 em {
     gap: 20px;
     background: var(--yellow);
     padding: 23px 3%;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 3px;
     color: var(--deep)
 }
 
 .ribbon b {
-    font-size: 24px
+    font-size: 27px
 }
 
 .section {
@@ -274,7 +274,7 @@ h1 em {
 }
 
 .kicker {
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 2px;
     font-weight: 700
 }
@@ -288,7 +288,7 @@ h1 em {
 }
 
 h2 {
-    font-size: clamp(37px, 4vw, 58px);
+    font-size: clamp(40px, 4vw, 61px);
     line-height: 1.05;
     letter-spacing: -2px;
     margin: 18px 0 22px
@@ -297,7 +297,7 @@ h2 {
 .section-heading>p {
     max-width: 340px;
     line-height: 1.8;
-    font-size: 15px;
+    font-size: 18px;
     color: var(--muted)
 }
 
@@ -341,7 +341,7 @@ h2 {
 
 .number {
     font-weight: 800;
-    font-size: 26px;
+    font-size: 29px;
     opacity: .4
 }
 
@@ -351,7 +351,7 @@ h2 {
 }
 
 .course-icon {
-    font-size: 58px;
+    font-size: 61px;
     line-height: 1;
     margin: 20px 0;
     color: var(--purple)
@@ -362,12 +362,12 @@ h2 {
 }
 
 h3 {
-    font-size: 23px;
+    font-size: 26px;
     letter-spacing: -.6px
 }
 
 .course p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.7;
     min-height: 96px;
     color: var(--muted)
@@ -380,7 +380,7 @@ h3 {
 .course ul {
     padding: 0;
     list-style: none;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 2.2
 }
 
@@ -398,7 +398,7 @@ h3 {
     background: transparent;
     border: 0;
     color: inherit;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     margin-top: 22px;
     display: flex;
@@ -415,7 +415,7 @@ h3 {
     display: grid;
     place-items: center;
     color: var(--deep);
-    font-size: 20px
+    font-size: 23px
 }
 
 .why {
@@ -429,7 +429,7 @@ h3 {
 }
 
 .why h2 {
-    font-size: clamp(40px, 4.6vw, 66px)
+    font-size: clamp(43px, 4.6vw, 69px)
 }
 
 .why em {
@@ -439,7 +439,7 @@ h3 {
 .why-copy>p {
     color: #e7d9ff;
     line-height: 1.8;
-    font-size: 15px;
+    font-size: 18px;
     max-width: 390px;
     margin-bottom: 30px
 }
@@ -467,13 +467,13 @@ h3 {
     background: var(--yellow);
     color: var(--deep);
     border-radius: 50%;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 800;
     z-index: 1
 }
 
 .journey small {
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 2px;
     color: #ceb0fa
 }
@@ -484,7 +484,7 @@ h3 {
 
 .journey p {
     line-height: 1.7;
-    font-size: 14px;
+    font-size: 17px;
     color: #e2d2f7;
     max-width: 320px
 }
@@ -500,7 +500,7 @@ h3 {
 .destination {
     background: #3e1087;
     border-radius: 10px;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 3px;
     padding: 20px;
     margin-left: 80px;
@@ -515,7 +515,7 @@ h3 {
 
 .faq-section>div>p {
     color: var(--muted);
-    font-size: 14px
+    font-size: 17px
 }
 
 .faqs details {
@@ -530,7 +530,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 1.5
 }
@@ -540,7 +540,7 @@ h3 {
 }
 
 .faqs summary span {
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 400
 }
 
@@ -549,7 +549,7 @@ h3 {
 }
 
 .faqs p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.8;
     color: var(--muted)
 }
@@ -563,7 +563,7 @@ h3 {
 }
 
 .contact h2 {
-    font-size: clamp(45px, 5vw, 74px)
+    font-size: clamp(48px, 5vw, 77px)
 }
 
 .contact>div>p {
@@ -572,7 +572,7 @@ h3 {
 
 .contact-note {
     max-width: 350px;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.8;
     margin-top: 30px;
     opacity: .8
@@ -587,12 +587,12 @@ form {
 
 form h3 {
     margin: 0 0 24px;
-    font-size: 24px
+    font-size: 27px
 }
 
 label {
     display: block;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     margin-bottom: 17px
 }
@@ -613,7 +613,7 @@ textarea {
     color: var(--ink);
     margin-top: 8px;
     outline: none;
-    font-size: 14px
+    font-size: 17px
 }
 
 input:focus,
@@ -628,7 +628,7 @@ textarea {
 }
 
 .form-note {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.6;
     color: var(--muted)
 }
@@ -646,7 +646,7 @@ form>.button {
 }
 
 #copy-status {
-    font-size: 12px
+    font-size: 15px
 }
 
 footer {
@@ -662,12 +662,12 @@ footer {
 
 footer p,
 footer>a:not(.brand) {
-    font-size: 12px
+    font-size: 15px
 }
 
 footer .concept {
     width: 100%;
-    font-size: 8px;
+    font-size: 11px;
     letter-spacing: 2px;
     opacity: .5;
     border-top: 1px solid #ffffff20;
@@ -697,16 +697,16 @@ footer .concept {
 }
 
 .loader .brand {
-    font-size: 55px
+    font-size: 58px
 }
 
 .loader .brand small {
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 7px
 }
 
 .loader p {
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 3px;
     margin: 55px 0 30px
 }
@@ -719,7 +719,7 @@ footer .concept {
 
 .mini-car {
     position: absolute;
-    font-size: 37px;
+    font-size: 40px;
     bottom: -4px;
     left: 0;
     animation: drive 2s ease-in-out infinite;
@@ -746,7 +746,7 @@ footer .concept {
     border: 0;
     background: transparent;
     color: #decbf5;
-    font-size: 11px;
+    font-size: 14px;
     padding: 20px
 }
 
@@ -770,11 +770,11 @@ dialog::backdrop {
 }
 
 dialog h2 {
-    font-size: 38px
+    font-size: 41px
 }
 
 dialog p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.8;
     color: var(--muted);
     margin-bottom: 28px
@@ -784,7 +784,7 @@ dialog p {
     position: absolute;
     right: 15px;
     top: 10px;
-    font-size: 28px;
+    font-size: 31px;
     background: transparent;
     border: 0;
     color: var(--purple)
@@ -837,7 +837,7 @@ dialog p {
     }
 
     .hero-copy>p {
-        font-size: 18px
+        font-size: 21px
     }
 
     .section {
@@ -866,7 +866,7 @@ dialog p {
     }
 
     .ribbon {
-        font-size: 9px;
+        font-size: 12px;
         letter-spacing: 2px
     }
 
@@ -886,15 +886,15 @@ dialog p {
     }
 
     .brand {
-        font-size: 29px
+        font-size: 32px
     }
 
     .brand span {
-        font-size: 34px
+        font-size: 37px
     }
 
     .brand small {
-        font-size: 7px;
+        font-size: 10px;
         letter-spacing: 4px
     }
 
@@ -905,7 +905,7 @@ dialog p {
         color: var(--purple);
         border-radius: 10px;
         padding: 7px 11px;
-        font-size: 22px
+        font-size: 25px
     }
 
     nav {
@@ -937,24 +937,24 @@ dialog p {
     }
 
     .eyebrow {
-        font-size: 8px;
+        font-size: 11px;
         letter-spacing: 1.3px
     }
 
     h1 {
-        font-size: clamp(43px, 11.5vw, 70px);
+        font-size: clamp(46px, 11.5vw, 73px);
         letter-spacing: -2.6px;
         margin: 21px 0 15px
     }
 
     .hero-copy>p {
-        font-size: 17px;
+        font-size: 20px;
         margin: 15px 0 21px
     }
 
     .button {
         padding: 14px 21px;
-        font-size: 12px;
+        font-size: 15px;
         gap: 18px
     }
 
@@ -974,23 +974,23 @@ dialog p {
         bottom: 0;
         right: 5%;
         padding: 12px;
-        font-size: 10px;
+        font-size: 13px;
         gap: 8px
     }
 
     .replay span {
-        font-size: 21px
+        font-size: 24px
     }
 
     .scroll-hint {
-        font-size: 8px;
+        font-size: 11px;
         bottom: 16px;
         left: 5%
     }
 
     .ribbon {
         padding: 17px 5%;
-        font-size: 8px;
+        font-size: 11px;
         letter-spacing: 1.6px;
         justify-content: center;
         text-align: center
@@ -1011,11 +1011,11 @@ dialog p {
     }
 
     h2 {
-        font-size: 39px
+        font-size: 42px
     }
 
     .section-heading>p {
-        font-size: 14px
+        font-size: 17px
     }
 
     .course-grid {
@@ -1031,7 +1031,7 @@ dialog p {
         position: absolute;
         right: 25px;
         top: 15px;
-        font-size: 50px
+        font-size: 53px
     }
 
     .course h3 {
@@ -1043,7 +1043,7 @@ dialog p {
     }
 
     .course ul {
-        font-size: 12px
+        font-size: 15px
     }
 
     .course-link {
@@ -1057,7 +1057,7 @@ dialog p {
     }
 
     .why h2 {
-        font-size: 44px
+        font-size: 47px
     }
 
     .why h2 br:nth-of-type(1) {
@@ -1069,17 +1069,17 @@ dialog p {
     }
 
     .journey h3 {
-        font-size: 22px
+        font-size: 25px
     }
 
     .journey p {
-        font-size: 13px
+        font-size: 16px
     }
 
     .journey article>span {
         width: 45px;
         height: 45px;
-        font-size: 14px
+        font-size: 17px
     }
 
     .road-line {
@@ -1088,7 +1088,7 @@ dialog p {
 
     .destination {
         margin-left: 62px;
-        font-size: 9px
+        font-size: 12px
     }
 
     .faq-section {
@@ -1097,7 +1097,7 @@ dialog p {
     }
 
     .faqs summary {
-        font-size: 14px
+        font-size: 17px
     }
 
     .contact {
@@ -1106,12 +1106,12 @@ dialog p {
     }
 
     .contact h2 {
-        font-size: 49px
+        font-size: 52px
     }
 
     .contact-note {
         margin-top: 15px;
-        font-size: 11px
+        font-size: 14px
     }
 
     form {
@@ -1131,7 +1131,7 @@ dialog p {
     }
 
     footer>a:not(.brand) {
-        font-size: 11px
+        font-size: 14px
     }
 
     footer .concept {
@@ -1144,7 +1144,7 @@ dialog p {
     }
 
     dialog h2 {
-        font-size: 32px
+        font-size: 35px
     }
 }
 
@@ -1196,7 +1196,7 @@ dialog p {
 }
 
 .hero-background h1 {
-  font-size: clamp(52px, 5.8vw, 88px);
+  font-size: clamp(55px, 5.8vw, 91px);
   line-height: 1.04;
   letter-spacing: -3px;
 }
@@ -1242,13 +1242,13 @@ dialog p {
   }
 
   .hero-background h1 {
-    font-size: clamp(44px, 11vw, 66px);
+    font-size: clamp(47px, 11vw, 69px);
     letter-spacing: -2px;
     margin: 24px 0 16px;
   }
 
   .hero-background .hero-copy > p {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .hero-background .replay {
@@ -1288,7 +1288,7 @@ header .brand {
   display: inline-block;
   color: #5417ad;
 
-  font-size: 36px;
+  font-size: 39px;
   font-weight: 900;
   font-style: italic;
   line-height: 0.9;
@@ -1300,7 +1300,7 @@ header .brand > span {
   display: inline-block;
   margin-left: 5px;
   color: #ffcf18;
-  font-size: 44px;
+  font-size: 47px;
   transition: transform 0.3s ease;
 }
 
@@ -1313,7 +1313,7 @@ header .brand small {
   margin-top: 9px;
   color: #694494;
 
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 4.5px;
@@ -1334,7 +1334,7 @@ header #navigation > a:not(.button) {
   padding: 12px 0;
   color: #614776;
 
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 600;
   white-space: nowrap;
   text-decoration: none;
@@ -1383,7 +1383,7 @@ header #navigation > .button.yellow {
   background: #ffdf28;
   color: #391064;
 
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   white-space: nowrap;
   text-decoration: none;
@@ -1405,7 +1405,7 @@ header #navigation > .button.yellow > span {
 
   background: #5417ad;
   color: #fff;
-  font-size: 17px;
+  font-size: 20px;
 
   transition: transform 0.25s ease;
 }
@@ -1435,7 +1435,7 @@ header .menu-toggle {
 
   background: #ffdf28;
   color: #5417ad;
-  font-size: 25px;
+  font-size: 28px;
   cursor: pointer;
 }
 
@@ -1453,15 +1453,15 @@ header button:focus-visible {
   }
 
   header .brand {
-    font-size: 30px;
+    font-size: 33px;
   }
 
   header .brand > span {
-    font-size: 36px;
+    font-size: 39px;
   }
 
   header .brand small {
-    font-size: 7px;
+    font-size: 10px;
     letter-spacing: 3.7px;
   }
 
@@ -1497,7 +1497,7 @@ header button:focus-visible {
   header #navigation > a:not(.button) {
     padding: 14px 16px;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 17px;
   }
 
   header #navigation > a:not(.button)::after {
@@ -1650,12 +1650,12 @@ body.loading > header {
   background: #ffdf28;
   border-radius: 8px;
 
-  font-size: 28px;
+  font-size: 31px;
   font-weight: 800;
 }
 
 .about-badge > div {
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 2px;
   line-height: 1.6;
 }
@@ -1664,13 +1664,13 @@ body.loading > header {
   display: block;
   margin-top: 4px;
 
-  font-size: 14px;
+  font-size: 17px;
   letter-spacing: 0;
 }
 
 .about-content > p {
   color: #746582;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.9;
 }
 
@@ -1698,19 +1698,19 @@ body.loading > header {
   background: #f1e8ff;
   border-radius: 12px;
 
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 800;
 }
 
 .about-points h3 {
   margin: 0 0 6px;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .about-points p {
   margin: 0;
   color: #746582;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -1854,7 +1854,7 @@ body.intro-finished .hero-note {
   }
 
   .about-content h2 {
-    font-size: clamp(34px, 8vw, 46px);
+    font-size: clamp(37px, 8vw, 49px);
   }
 
   .about-badge {
@@ -1862,7 +1862,7 @@ body.intro-finished .hero-note {
   }
 
   .about-badge strong {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -1922,7 +1922,7 @@ header.is-scrolled {
 /* Logo */
 header .brand {
   color: #fff;
-  font-size: 32px;
+  font-size: 35px;
 }
 
 header .brand small {
@@ -1958,7 +1958,7 @@ header #navigation > a:not(.button) {
   border-radius: 12px;
 
   color: #eee4ff;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
 
   transition:
@@ -2020,7 +2020,7 @@ header #navigation > .button.yellow > span {
   }
 
   header .brand {
-    font-size: 28px;
+    font-size: 31px;
   }
 
   header .menu-toggle {
@@ -2146,7 +2146,7 @@ header #navigation > .button.yellow > span {
   max-width: 490px;
   margin: auto;
   color: #746582;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8;
 }
 
@@ -2194,7 +2194,7 @@ header #navigation > .button.yellow > span {
 }
 
 .program-number {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 2px;
   color: #806596;
@@ -2212,20 +2212,20 @@ header #navigation > .button.yellow > span {
   border: 1px solid #e2cef9;
   border-radius: 19px;
 
-  font-size: 34px;
+  font-size: 37px;
   font-weight: 800;
 }
 
 .program-card h3 {
   margin: 14px 0;
-  font-size: 25px;
+  font-size: 28px;
   line-height: 1.2;
 }
 
 .program-card > p {
   margin: 0 0 24px;
   color: #746582;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.85;
 }
 
@@ -2241,7 +2241,7 @@ header #navigation > .button.yellow > span {
   padding: 7px 10px;
   background: #f5effd;
   border-radius: 7px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -2259,7 +2259,7 @@ header #navigation > .button.yellow > span {
   background: transparent;
   color: inherit;
 
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   text-align: left;
 }
@@ -2275,7 +2275,7 @@ header #navigation > .button.yellow > span {
   background: #ffdf28;
   color: #351064;
   border-radius: 50%;
-  font-size: 21px;
+  font-size: 24px;
 
   transition: transform 0.25s ease;
 }
@@ -2334,13 +2334,13 @@ header #navigation > .button.yellow > span {
 
 .programs-help p {
   margin: 0;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.7;
 }
 
 .programs-help a {
   flex-shrink: 0;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -2365,7 +2365,7 @@ header #navigation > .button.yellow > span {
   }
 
   .program-card h3 {
-    font-size: 22px;
+    font-size: 25px;
   }
 }
 
@@ -2599,7 +2599,7 @@ header #navigation > .button.yellow > span {
 #why-us .why-intro h2 {
   margin: 18px 0 0;
   color: #fff;
-  font-size: clamp(38px, 4.3vw, 64px);
+  font-size: clamp(41px, 4.3vw, 67px);
   line-height: 1.08;
 }
 
@@ -2612,7 +2612,7 @@ header #navigation > .button.yellow > span {
   margin: 0 0 5px;
 
   color: #d8c6ed;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.85;
 }
 
@@ -2653,7 +2653,7 @@ header #navigation > .button.yellow > span {
   background: #ffdf28;
   border-radius: 30px;
 
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 1.5px;
 }
@@ -2662,7 +2662,7 @@ header #navigation > .button.yellow > span {
   margin: 20px 0 0;
 
   color: #5417ad;
-  font-size: clamp(35px, 3.5vw, 52px);
+  font-size: clamp(38px, 3.5vw, 55px);
   line-height: 1.02;
   letter-spacing: -2px;
 }
@@ -2689,7 +2689,7 @@ header #navigation > .button.yellow > span {
 }
 
 #why-us .why-car-footer > span {
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.9;
   letter-spacing: 2px;
 }
@@ -2710,7 +2710,7 @@ header #navigation > .button.yellow > span {
   background: #ffdf28;
   border-radius: 50%;
 
-  font-size: 25px;
+  font-size: 28px;
 }
 
 /* ===== GLASS POINTS ===== */
@@ -2766,7 +2766,7 @@ header #navigation > .button.yellow > span {
   border: 1px solid rgba(255, 223, 40, 0.35);
   border-radius: 15px;
 
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 800;
 }
 
@@ -2777,14 +2777,14 @@ header #navigation > .button.yellow > span {
 
 #why-us .why-step-copy small {
   color: #cdb1ef;
-  font-size: 9px;
+  font-size: 12px;
   letter-spacing: 1.5px;
 }
 
 #why-us .why-step-copy h3 {
   margin: 9px 0 10px;
   color: #fff;
-  font-size: clamp(21px, 2vw, 27px);
+  font-size: clamp(24px, 2vw, 30px);
 }
 
 #why-us .why-step-copy p {
@@ -2792,14 +2792,14 @@ header #navigation > .button.yellow > span {
   margin: 0;
 
   color: #dfd0f0;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.85;
 }
 
 #why-us .why-step-arrow {
   flex-shrink: 0;
   color: #ffdf28;
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 400;
 }
 
@@ -2812,12 +2812,12 @@ header #navigation > .button.yellow > span {
   padding: 8px 5px;
   color: #ffdf28;
 
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
 }
 
 #why-us .why-bottom-link span {
-  font-size: 24px;
+  font-size: 27px;
 }
 
 /* Desktop interaction */
@@ -2868,7 +2868,7 @@ header #navigation > .button.yellow > span {
 
 @media (max-width: 480px) {
   #why-us .why-intro h2 {
-    font-size: 39px;
+    font-size: 42px;
   }
 
   #why-us .why-car-heading {
@@ -2884,15 +2884,15 @@ header #navigation > .button.yellow > span {
     width: 42px;
     height: 42px;
     border-radius: 12px;
-    font-size: 17px;
+    font-size: 20px;
   }
 
   #why-us .why-step-copy h3 {
-    font-size: 21px;
+    font-size: 24px;
   }
 
   #why-us .why-step-copy small {
-    font-size: 8px;
+    font-size: 11px;
     letter-spacing: 1px;
   }
 
@@ -2938,7 +2938,7 @@ header #navigation > .button.yellow > span {
 
 .lesson-eyebrow {
   color: #ffdf28;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 2.5px;
 }
@@ -2948,7 +2948,7 @@ header #navigation > .button.yellow > span {
 
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(30px, 3.5vw, 50px);
+  font-size: clamp(33px, 3.5vw, 53px);
   font-weight: 800;
   line-height: 1.12;
   letter-spacing: -1.5px;
@@ -2959,7 +2959,7 @@ header #navigation > .button.yellow > span {
   margin: 0;
 
   color: #e1d8ed;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.85;
 }
 
@@ -2983,7 +2983,7 @@ header #navigation > .button.yellow > span {
   background: #ffdf28;
   border-radius: 40px;
 
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 800;
 
   transition:
@@ -3002,7 +3002,7 @@ header #navigation > .button.yellow > span {
   gap: 12px;
 
   color: #fff;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -3069,14 +3069,14 @@ header #navigation > .button.yellow > span {
 }
 
 .lesson-stat strong {
-  font-size: clamp(30px, 3vw, 44px);
+  font-size: clamp(33px, 3vw, 47px);
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -1px;
 }
 
 .lesson-stat > span {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -3092,7 +3092,7 @@ header #navigation > .button.yellow > span {
   }
 
   .lesson-stat > span {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -3111,7 +3111,7 @@ header #navigation > .button.yellow > span {
   }
 
   .lesson-banner-content h2 {
-    font-size: 35px;
+    font-size: 38px;
   }
 
   .lesson-banner-actions {
@@ -3142,7 +3142,7 @@ header #navigation > .button.yellow > span {
   }
 
   .lesson-stat strong {
-    font-size: 34px;
+    font-size: 37px;
   }
 }
 
@@ -3251,7 +3251,7 @@ header #navigation > .button.yellow > span {
 }
 
 .tw-heading > span {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 3px;
 }
@@ -3260,7 +3260,7 @@ header #navigation > .button.yellow > span {
   margin: 16px 0;
   color: #5417ad;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(32px, 4vw, 54px);
+  font-size: clamp(35px, 4vw, 57px);
   font-weight: 800;
   line-height: 1.12;
   letter-spacing: -1.8px;
@@ -3269,7 +3269,7 @@ header #navigation > .button.yellow > span {
 .tw-heading > p {
   margin: 0;
   color: #77618c;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 1.7;
 }
 
@@ -3352,7 +3352,7 @@ header #navigation > .button.yellow > span {
 }
 
 .tw-brand {
-  font-size: 27px;
+  font-size: 30px;
   font-weight: 800;
   letter-spacing: 1px;
 }
@@ -3361,7 +3361,7 @@ header #navigation > .button.yellow > span {
   display: block;
   margin-top: 6px;
   color: #eadcff;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 600;
   letter-spacing: 3px;
 }
@@ -3370,7 +3370,7 @@ header #navigation > .button.yellow > span {
   margin: 50px 0 24px;
   color: #fff;
 
-  font-size: clamp(34px, 3.6vw, 52px);
+  font-size: clamp(37px, 3.6vw, 55px);
   font-weight: 800;
   line-height: 1.08;
   letter-spacing: -1.7px;
@@ -3379,7 +3379,7 @@ header #navigation > .button.yellow > span {
 .tw-feature-content > p {
   margin: 0 0 28px;
   color: #eee4ff;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.85;
 }
 
@@ -3394,7 +3394,7 @@ header #navigation > .button.yellow > span {
   background: #ffdf28;
   border-radius: 8px;
 
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   text-decoration: none;
 
@@ -3406,7 +3406,7 @@ header #navigation > .button.yellow > span {
 }
 
 .tw-button > span {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 /* Visible photo control also works on mobile */
@@ -3426,7 +3426,7 @@ header #navigation > .button.yellow > span {
   border-top: 1px solid rgba(255, 255, 255, 0.25);
 
   font: inherit;
-  font-size: 11px;
+  font-size: 14px;
   cursor: pointer;
 }
 
@@ -3454,27 +3454,27 @@ header #navigation > .button.yellow > span {
 
 .tw-number {
   color: #5417ad;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 800;
 }
 
 #why-us .tw-benefit h3 {
   margin: 18px 0 13px;
   color: #5417ad;
-  font-size: clamp(22px, 2vw, 30px);
+  font-size: clamp(25px, 2vw, 33px);
   font-weight: 750;
   line-height: 1.18;
   letter-spacing: -0.7px;
 }
 
 #why-us .tw-yellow h3 {
-  font-size: clamp(28px, 3vw, 40px);
+  font-size: clamp(31px, 3vw, 43px);
 }
 
 .tw-benefit > p {
   margin: 0 0 26px;
   color: #705a86;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.8;
 }
 
@@ -3508,7 +3508,7 @@ header #navigation > .button.yellow > span {
   margin: 30px auto 0;
 
   color: #5417ad;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.6;
   text-decoration: underline;
   text-underline-offset: 5px;
@@ -3572,7 +3572,7 @@ header #navigation > .button.yellow > span {
 
   #why-us .tw-feature h3 {
     margin-top: 30px;
-    font-size: 42px;
+    font-size: 45px;
   }
 
   .tw-feature-content > p {
@@ -3602,16 +3602,16 @@ header #navigation > .button.yellow > span {
   }
 
   .tw-heading > span {
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 2px;
   }
 
   .tw-heading > p {
-    font-size: 14px;
+    font-size: 17px;
   }
 
   #why-us .tw-benefit h3 {
-    font-size: 26px;
+    font-size: 29px;
   }
 }
 
@@ -3648,25 +3648,25 @@ header #navigation > .button.yellow > span {
 
   #home .eyebrow {
     padding: 8px 12px;
-    font-size: 8px;
+    font-size: 11px;
     letter-spacing: 1px;
   }
 
   #home .hero-copy h1 {
     margin: 18px 0 12px;
-    font-size: clamp(36px, 10vw, 44px);
+    font-size: clamp(39px, 10vw, 47px);
     line-height: 1.05;
     letter-spacing: -1.8px;
   }
 
   #home .hero-copy > p {
     margin: 12px 0 18px;
-    font-size: 15px;
+    font-size: 18px;
   }
 
   #home .hero-copy > .button {
     padding: 12px 19px;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   #home .hero-note {
@@ -3693,13 +3693,13 @@ header #navigation > .button.yellow > span {
     right: 6%;
     bottom: 38px;
     padding: 10px 13px;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   #home .scroll-hint {
     left: 6%;
     bottom: 15px;
-    font-size: 8px;
+    font-size: 11px;
   }
 }
 /* ===== THULASI FOOTER ===== */
@@ -3731,7 +3731,7 @@ footer.THULASI-footer {
 
 .tf-eyebrow {
   color: #ffdf28;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -3739,7 +3739,7 @@ footer.THULASI-footer {
 .THULASI-footer .tf-top h2 {
   margin: 16px 0 0;
   color: #fff;
-  font-size: clamp(29px, 3.4vw, 46px);
+  font-size: clamp(32px, 3.4vw, 49px);
   line-height: 1.15;
 }
 
@@ -3759,12 +3759,12 @@ footer.THULASI-footer {
   color: #351064;
   border-radius: 10px;
 
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 .tf-cta span {
-  font-size: 23px;
+  font-size: 26px;
 }
 
 .tf-grid {
@@ -3784,7 +3784,7 @@ footer.THULASI-footer {
   display: inline-block;
   color: #fff;
 
-  font-size: 35px;
+  font-size: 38px;
   font-style: italic;
   font-weight: 900;
   line-height: 1;
@@ -3801,7 +3801,7 @@ footer.THULASI-footer {
   margin-top: 9px;
 
   color: #d9c4f0;
-  font-size: 8px;
+  font-size: 11px;
   font-style: normal;
   letter-spacing: 4px;
 }
@@ -3810,7 +3810,7 @@ footer.THULASI-footer {
 .THULASI-footer .tf-contact > p {
   margin: 22px 0;
   color: #cbbbdc;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.9;
 }
 
@@ -3865,7 +3865,7 @@ footer.THULASI-footer {
 .THULASI-footer .tf-grid h3 {
   margin: 2px 0 22px;
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0;
 }
 
@@ -3882,7 +3882,7 @@ footer.THULASI-footer {
 
 .tf-links > a {
   color: #cbbbdc;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -3897,7 +3897,7 @@ footer.THULASI-footer {
   gap: 15px;
 
   color: #ffdf28;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -3927,14 +3927,14 @@ footer.THULASI-footer {
   background: #ffdf28;
   border-radius: 5px;
 
-  font-size: 24px;
+  font-size: 27px;
   font-weight: 800;
 }
 
 .THULASI-footer .tf-note p {
   margin: 0;
   color: #d9c9eb;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -3955,7 +3955,7 @@ footer.THULASI-footer {
 .tf-bottom > a {
   margin: 0;
   color: #c1add5;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.7;
 }
 
@@ -4086,7 +4086,7 @@ footer.THULASI-footer {
 .hdf-item h3 {
   margin: 0 0 12px;
   color: #fff;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.3;
   letter-spacing: -0.3px;
 }
@@ -4094,14 +4094,14 @@ footer.THULASI-footer {
 .hdf-item p {
   margin: 0 0 20px;
   color: #dfd1f1;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
 }
 
 .hdf-link {
   margin-top: auto;
   color: #ffdf28;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -4158,7 +4158,7 @@ footer.THULASI-footer {
   }
 
   .hdf-item h3 {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
@@ -4185,20 +4185,20 @@ footer.THULASI-footer {
 }
 
 .dt-heading > span {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 2.5px;
 }
 
 #courses .dt-heading h2 {
   margin: 18px 0;
-  font-size: clamp(34px, 4vw, 52px);
+  font-size: clamp(37px, 4vw, 55px);
   line-height: 1.12;
 }
 
 .dt-heading > p {
   color: #746582;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.7;
 }
 
@@ -4293,7 +4293,7 @@ footer.THULASI-footer {
 #courses .dt-content h3 {
   margin: 0 0 9px;
   color: #fff;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 1.2;
   letter-spacing: -0.4px;
 }
@@ -4301,7 +4301,7 @@ footer.THULASI-footer {
 .dt-content p {
   margin: 0;
   color: #e9ddf8;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
 }
 
@@ -4314,7 +4314,7 @@ footer.THULASI-footer {
   border: 0;
 
   font: inherit;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   cursor: pointer;
 }
@@ -4387,13 +4387,13 @@ footer.THULASI-footer {
   display: block;
   margin-bottom: 3px;
   color: #85728f;
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: 2px;
 }
 
 .dt-number strong {
   display: block;
-  font-size: 48px;
+  font-size: 51px;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -2px;
@@ -4438,7 +4438,7 @@ footer.THULASI-footer {
   }
 
   #courses .dt-content h3 {
-    font-size: 18px;
+    font-size: 21px;
   }
 }
 
@@ -4482,11 +4482,11 @@ footer.THULASI-footer {
 
   .dt-number > span {
     margin: 0;
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .dt-number strong {
-    font-size: 26px;
+    font-size: 29px;
     letter-spacing: -1px;
   }
 
@@ -4521,7 +4521,7 @@ footer.THULASI-footer {
   }
 
   #courses .dt-content h3 {
-    font-size: 18px;
+    font-size: 21px;
   }
 }
 /* Home banner */
@@ -4592,7 +4592,7 @@ footer.THULASI-footer {
     border: 0;
     border-radius: 25px;
 
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 700;
     cursor: pointer;
   }
@@ -4688,7 +4688,7 @@ footer.THULASI-footer {
   align-items: center;
   gap: 12px;
   color: #5417ad;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 800;
   letter-spacing: 2px;
 }
@@ -4702,7 +4702,7 @@ footer.THULASI-footer {
 
 .tg-heading h2 {
   margin: 14px 0 0;
-  font-size: clamp(34px, 4.5vw, 60px);
+  font-size: clamp(37px, 4.5vw, 63px);
   line-height: 1.08;
   letter-spacing: -2px;
 }
@@ -4717,7 +4717,7 @@ footer.THULASI-footer {
   max-width: 330px;
   margin: 0;
   color: #70647e;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8;
 }
 
@@ -4781,14 +4781,14 @@ footer.THULASI-footer {
 
 .tg-item figcaption > span {
   color: #ffdf28;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
   letter-spacing: 1.8px;
 }
 
 .tg-item h3 {
   margin: 9px 0 0;
-  font-size: clamp(19px, 2vw, 27px);
+  font-size: clamp(22px, 2vw, 30px);
   line-height: 1.2;
 }
 
@@ -4813,7 +4813,7 @@ footer.THULASI-footer {
   border-radius: 100px;
   background: #5417ad;
   color: #fff;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 700;
   text-decoration: none;
   transition: background 200ms ease;
@@ -4821,7 +4821,7 @@ footer.THULASI-footer {
 
 .tg-bottom a span {
   color: #ffdf28;
-  font-size: 21px;
+  font-size: 24px;
 }
 
 .tg-bottom a:hover {
@@ -5012,7 +5012,7 @@ body.loading .floating-whatsapp {
   display: block;
   margin-bottom: 22px;
   color: #704c91;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 800;
   line-height: 1.6;
   letter-spacing: 2px;
@@ -5021,7 +5021,7 @@ body.loading .floating-whatsapp {
 .th-trainer h2 {
   margin: 0 0 24px;
   color: #351064;
-  font-size: clamp(38px, 4.7vw, 68px);
+  font-size: clamp(41px, 4.7vw, 71px);
   font-weight: 900;
   line-height: 1.06;
   letter-spacing: -2.5px;
@@ -5035,7 +5035,7 @@ body.loading .floating-whatsapp {
   max-width: 440px;
   margin: 0;
   color: #746582;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 1.85;
 }
 
@@ -5052,7 +5052,7 @@ body.loading .floating-whatsapp {
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.65);
   color: #5417ad;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 1.4;
 }
@@ -5067,7 +5067,7 @@ body.loading .floating-whatsapp {
   border-radius: 14px;
   background: #5417ad;
   color: #fff;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 700;
   line-height: 1.4;
   text-decoration: none;
@@ -5078,7 +5078,7 @@ body.loading .floating-whatsapp {
 
 .th-trainer .th-trainer__button span {
   color: #ffdf28;
-  font-size: 24px;
+  font-size: 27px;
   line-height: 1;
 }
 
@@ -5191,7 +5191,7 @@ body.loading .floating-whatsapp {
   left: 26px;
   right: 26px;
   color: #fff;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 1.6;
   letter-spacing: 2px;
@@ -5222,7 +5222,7 @@ body.loading .floating-whatsapp {
 
 .th-trainer .th-trainer__role {
   color: #ffdf28;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
   line-height: 1.5;
   letter-spacing: 1.7px;
@@ -5231,7 +5231,7 @@ body.loading .floating-whatsapp {
 .th-trainer .th-trainer__card h3 {
   margin: 9px 0 6px;
   color: #fff;
-  font-size: clamp(23px, 2.5vw, 32px);
+  font-size: clamp(26px, 2.5vw, 35px);
   font-weight: 800;
   line-height: 1.15;
   overflow-wrap: anywhere;
@@ -5240,7 +5240,7 @@ body.loading .floating-whatsapp {
 .th-trainer .th-trainer__card p {
   margin: 0;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.6;
 }
 
@@ -5253,7 +5253,7 @@ body.loading .floating-whatsapp {
   border-radius: 50%;
   background: #ffdf28;
   color: #351064;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 /* PAUSE BUTTON */
@@ -5269,7 +5269,7 @@ body.loading .floating-whatsapp {
   background: rgba(35, 13, 62, 0.75);
   color: #fff;
   font: inherit;
-  font-size: 11px;
+  font-size: 14px;
   cursor: pointer;
 }
 
@@ -5312,7 +5312,7 @@ body.loading .floating-whatsapp {
     top: 22px;
     left: 22px;
     right: 22px;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 1.4px;
   }
 
@@ -5533,7 +5533,7 @@ body.loading .floating-whatsapp {
   display: block;
   margin-bottom: 18px;
   color: #ffdf28;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
   line-height: 1.6;
   letter-spacing: 2.4px;
@@ -5542,7 +5542,7 @@ body.loading .floating-whatsapp {
 .THULASI-gallery .tg-heading h2 {
   margin: 0;
   color: #fff;
-  font-size: clamp(38px, 4.7vw, 66px);
+  font-size: clamp(41px, 4.7vw, 69px);
   font-weight: 800;
   line-height: 1.06;
   letter-spacing: -2px;
@@ -5560,7 +5560,7 @@ body.loading .floating-whatsapp {
 .THULASI-gallery .tg-heading-right p {
   margin: 0 0 20px;
   color: #dfd1ef;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.8;
 }
 
@@ -5569,14 +5569,14 @@ body.loading .floating-whatsapp {
   align-items: center;
   gap: 18px;
   color: #fff;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: .5px;
 }
 
 .THULASI-gallery .tg-scroll-hint > span {
   color: #ffdf28;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 /* SCROLLABLE CARD TRACK */
@@ -5679,7 +5679,7 @@ body.loading .floating-whatsapp {
   right: 18px;
   bottom: 18px;
   color: #fff;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
   line-height: 1.6;
   letter-spacing: 1.6px;
@@ -5719,7 +5719,7 @@ body.loading .floating-whatsapp {
   display: block;
   margin-bottom: 11px;
   color: #ffdf28;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
   line-height: 1.6;
   letter-spacing: 1.5px;
@@ -5728,7 +5728,7 @@ body.loading .floating-whatsapp {
 .THULASI-gallery .tg-card h3 {
   margin: 0 0 10px;
   color: #fff;
-  font-size: clamp(21px, 2vw, 27px);
+  font-size: clamp(24px, 2vw, 30px);
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -.6px;
@@ -5737,7 +5737,7 @@ body.loading .floating-whatsapp {
 .THULASI-gallery .tg-card figcaption p {
   margin: 0;
   color: #dfd1ef;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
 }
 
@@ -5774,7 +5774,7 @@ body.loading .floating-whatsapp {
 .THULASI-gallery .tg-bottom p {
   margin: 0;
   color: #dfd1ef;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.6;
 }
 
@@ -5787,13 +5787,13 @@ body.loading .floating-whatsapp {
   border-radius: 12px;
   background: #ffdf28;
   color: #351064;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 800;
   text-decoration: none;
 }
 
 .THULASI-gallery .tg-bottom a span {
-  font-size: 22px;
+  font-size: 25px;
   line-height: 1;
 }
 
@@ -5817,7 +5817,7 @@ body.loading .floating-whatsapp {
   }
 
   .THULASI-gallery .tg-heading h2 {
-    font-size: clamp(36px, 9vw, 48px);
+    font-size: clamp(39px, 9vw, 51px);
     letter-spacing: -1.5px;
   }
 
@@ -5828,7 +5828,7 @@ body.loading .floating-whatsapp {
   .THULASI-gallery .tg-heading-right p {
     max-width: 360px;
     margin-bottom: 12px;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .THULASI-gallery .tg-track {
@@ -5858,13 +5858,13 @@ body.loading .floating-whatsapp {
 
   .THULASI-gallery .tg-bottom p {
     max-width: 130px;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .THULASI-gallery .tg-bottom a {
     gap: 14px;
     padding: 13px 16px;
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -5956,26 +5956,26 @@ body.loading .floating-whatsapp {
 
   #home .hero-copy .eyebrow {
     margin-bottom: 16px;
-    font-size: 9px;
+    font-size: 12px;
   }
 
   #home .hero-copy h1 {
     margin: 0 0 12px !important;
-    font-size: clamp(32px, 9vw, 44px) !important;
+    font-size: clamp(35px, 9vw, 47px) !important;
     line-height: 1.08 !important;
     letter-spacing: -1px;
   }
 
   #home .hero-copy > p {
     margin: 0 0 18px !important;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.5;
   }
 
   #home .hero-copy > .button {
     margin: 0 !important;
     padding: 13px 19px;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   #home .hero-note,
@@ -6209,7 +6209,7 @@ body.loading .floating-whatsapp {
   display: block;
   margin-bottom: 12px;
   color: #ffdf28;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
   line-height: 1.6;
   letter-spacing: 1.7px;
@@ -6218,7 +6218,7 @@ body.loading .floating-whatsapp {
 .th-founder .th-founder__photo figcaption strong {
   display: block;
   color: #fff;
-  font-size: clamp(25px, 3vw, 36px);
+  font-size: clamp(28px, 3vw, 39px);
   line-height: 1.15;
 }
 
@@ -6226,7 +6226,7 @@ body.loading .floating-whatsapp {
   display: block;
   margin-top: 8px;
   color: #eee5fa;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 /* CONTENT */
@@ -6239,7 +6239,7 @@ body.loading .floating-whatsapp {
   display: block;
   margin-bottom: 20px;
   color: #704c91;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
   line-height: 1.6;
   letter-spacing: 2px;
@@ -6248,7 +6248,7 @@ body.loading .floating-whatsapp {
 .th-founder h2 {
   margin: 0 0 28px;
   color: #351064;
-  font-size: clamp(32px, 3.8vw, 52px);
+  font-size: clamp(35px, 3.8vw, 55px);
   font-weight: 800;
   line-height: 1.12;
   letter-spacing: -1.8px;
@@ -6268,20 +6268,20 @@ body.loading .floating-whatsapp {
 .th-founder .th-founder__name h3 {
   margin: 0 0 7px;
   color: #5417ad;
-  font-size: 25px;
+  font-size: 28px;
   line-height: 1.2;
 }
 
 .th-founder .th-founder__name > span {
   color: #746582;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.6;
 }
 
 .th-founder .th-founder__content > p {
   margin: 0 0 16px;
   color: #746582;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.85;
 }
 
@@ -6300,7 +6300,7 @@ body.loading .floating-whatsapp {
   border-radius: 999px;
   background: #fff;
   color: #5417ad;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.4;
 }
@@ -6317,7 +6317,7 @@ body.loading .floating-whatsapp {
   border-radius: 13px;
   background: #5417ad;
   color: #fff;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
   text-decoration: none;
@@ -6326,7 +6326,7 @@ body.loading .floating-whatsapp {
 
 .th-founder .th-founder__button span {
   color: #ffdf28;
-  font-size: 23px;
+  font-size: 26px;
   line-height: 1;
 }
 
@@ -6367,7 +6367,7 @@ body.loading .floating-whatsapp {
 
   .th-founder h2 {
     margin-bottom: 24px;
-    font-size: clamp(30px, 8vw, 40px);
+    font-size: clamp(33px, 8vw, 43px);
     letter-spacing: -1.2px;
   }
 
@@ -6376,12 +6376,12 @@ body.loading .floating-whatsapp {
   }
 
   .th-founder .th-founder__content > p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.8;
   }
 
   .th-founder .th-founder__name h3 {
-    font-size: 23px;
+    font-size: 26px;
   }
 }
 
@@ -6504,26 +6504,26 @@ body.loading .floating-whatsapp {
 
 #founder .th-founder__photo figcaption span {
   margin-bottom: 6px;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 #founder .th-founder__photo figcaption strong {
-  font-size: 23px;
+  font-size: 26px;
 }
 
 #founder .th-founder__photo figcaption small {
   margin-top: 5px;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 #founder .th-founder__kicker {
   margin-bottom: 10px;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 #founder h2 {
   margin-bottom: 16px;
-  font-size: 32px;
+  font-size: 35px;
   line-height: 1.1;
   letter-spacing: -1px;
 }
@@ -6535,16 +6535,16 @@ body.loading .floating-whatsapp {
 
 #founder .th-founder__name h3 {
   margin-bottom: 4px;
-  font-size: 21px;
+  font-size: 24px;
 }
 
 #founder .th-founder__name > span {
-  font-size: 11px;
+  font-size: 14px;
 }
 
 #founder .th-founder__content > p {
   margin-bottom: 10px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -6555,14 +6555,14 @@ body.loading .floating-whatsapp {
 
 #founder .th-founder__values span {
   padding: 7px 10px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 #founder .th-founder__button {
   gap: 16px;
   margin-top: 16px;
   padding: 11px 16px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /* COMPACT MOBILE LAYOUT */
@@ -6583,6 +6583,101 @@ body.loading .floating-whatsapp {
   }
 
   #founder h2 {
-    font-size: 27px;
+    font-size: 30px;
   }
+}
+/* BILINGUAL LAYOUT — font-size declarations above increased by 3px */
+body { font-size: 19px; }
+header .th-language-switch {
+  display: inline-flex; flex-shrink: 0; gap: 3px; padding: 4px;
+  border: 1px solid rgba(255,255,255,.45); border-radius: 12px;
+  background: #fff; order: 2;
+}
+.th-language-switch button {
+  border: 0; border-radius: 8px; padding: 9px 10px;
+  background: transparent; color: #351064; font-size: 15px;
+  line-height: 1.4; font-weight: 700; cursor: pointer;
+}
+.th-language-switch button[aria-pressed="true"] { background: #ffdf28; color: #351064; }
+.th-language-switch button:focus-visible { outline: 3px solid #9256df; outline-offset: 2px; }
+header .brand { order: 0; }
+header #navigation { order: 1; }
+header .menu-toggle { order: 3; flex-shrink: 0; }
+html[lang="ta"] body,
+html[lang="ta"] button,
+html[lang="ta"] input,
+html[lang="ta"] select,
+html[lang="ta"] textarea {
+  font-family: "Noto Sans Tamil", "Nirmala UI", Latha, sans-serif;
+}
+html[lang="ta"] :is(h1,h2,h3,h4,em) { line-height: 1.5 !important; letter-spacing: 0 !important; font-style: normal; }
+html[lang="ta"] :is(p,label,summary,figcaption) { line-height: 1.8; }
+html[lang="ta"] :is(.kicker,.eyebrow,.tg-kicker,.th-founder__kicker,.th-trainer__eyebrow) {
+  letter-spacing: 0; line-height: 1.8;
+}
+html[lang="ta"] .brand,
+html[lang="ta"] .tf-brand { letter-spacing: 0; font-style: normal; line-height: 1.3; }
+html[lang="ta"] .brand small { letter-spacing: .2px; line-height: 1.5; }
+html[lang="ta"] .brand > span { margin-left: 0; }
+html[lang="ta"] header #navigation > a { white-space: normal; }
+html[lang="ta"] .tf-brand small { letter-spacing: 0; }
+/* Allow larger text to wrap instead of getting clipped in cards. */
+.dt-steps .dt-card { min-height: 240px; height: auto; }
+.dt-steps .dt-content { min-width: 0; }
+html[lang="ta"] .dt-steps .dt-card { min-height: 300px; }
+html[lang="ta"] .dt-content h3 { font-size: 22px; }
+html[lang="ta"] .dt-icon { flex-shrink: 0; }
+html[lang="ta"] .program-card { height: auto; }
+.th-founder__content, .th-trainer__intro { min-width: 0; }
+html[lang="ta"] #home .hero-copy h1 { font-size: clamp(32px, 3.8vw, 60px) !important; }
+html[lang="ta"] #home .hero-copy { max-width: 100%; }
+html[lang="ta"] #founder h2 { font-size: 29px; }
+html[lang="ta"] .tg-card h3 { font-size: 24px; }
+html[lang="ta"] .th-trainer__card { padding: 18px; }
+html[lang="ta"] .th-trainer__role { letter-spacing: 0; }
+html[lang="ta"] .th-trainer__label { letter-spacing: 0; font-size: 12px; }
+html[lang="ta"] .th-trainer__pause { top: 80px; }
+#course-dialog { width: min(620px, calc(100% - 32px)); max-height: 85dvh; overflow-y: auto; padding: 32px;
+  border: 1px solid #dfd3ee; border-radius: 22px; background: #f6f1ff; color: #351064; }
+#course-dialog::backdrop { background: rgba(20,5,40,.65); }
+#course-dialog .close-dialog { float: right; min-width: 40px; min-height: 40px; border: 0;
+  border-radius: 50%; background: #5417ad; color: white; font-size: 26px; }
+#course-dialog h2 { font-size: 27px; margin: 14px 0; padding-right: 35px; }
+#course-dialog p { font-size: 18px; line-height: 1.8; }
+#course-dialog #dialog-enquire { margin-top: 12px; white-space: normal; }
+@media (max-width: 1240px) {
+  header { gap: 12px; padding: 14px 3%; flex-wrap: wrap; }
+  header .brand { margin-right: auto; }
+  header .menu-toggle { display: inline-flex; }
+  header #navigation { position: absolute; top: calc(100% + 8px); left: 3%; right: 3%;
+    display: none; flex-direction: column; align-items: stretch; gap: 5px;
+    max-height: calc(100dvh - 160px); overflow-y: auto; padding: 16px;
+    background: #fff; border-radius: 18px; box-shadow: 0 18px 40px #35106430; }
+  header #navigation.open { display: flex; }
+  header #navigation > a:not(.button) { padding: 12px; color: #5417ad; white-space: normal; }
+  header #navigation > .button.yellow { white-space: normal; }
+}
+@media (max-width: 600px) {
+  header { gap: 8px; }
+  header .th-language-switch { order: 4; width: 100%; justify-content: center; padding: 3px; }
+  .th-language-switch button { flex: 1; max-width: 160px; padding: 7px 12px; font-size: 15px; }
+  html { scroll-padding-top: 165px; }
+  #home.hero.hero-background { min-height: 610px !important; height: auto !important; padding-bottom: 270px !important; }
+  html[lang="ta"] #home.hero.hero-background { padding-top: 24px !important; }
+  html[lang="ta"] #home .hero-copy h1 { font-size: 32px !important; }
+  #home .hero-copy .eyebrow { white-space: normal; line-height: 1.7; }
+  html[lang="ta"] .dt-steps .dt-card { min-height: 280px; }
+  .dt-steps .dt-card { padding: 22px 18px; }
+  .dt-steps .dt-icon { width: 48px; height: 48px; flex: 0 0 48px; }
+  .dt-steps .dt-content { flex: 1; }
+  html[lang="ta"] .th-trainer h2 { font-size: 34px; }
+  html[lang="ta"] .th-trainer__card h3 { font-size: 23px; }
+  html[lang="ta"] .th-trainer__icon { display: none; }
+  .tg-heading-right, .about-content, #enquiry { min-width: 0; }
+  .th-founder__values span, .th-trainer__tags span { white-space: normal; }
+  html[lang="ta"] #founder h2 { font-size: 27px; }
+  html[lang="ta"] .tf-grid { grid-template-columns: minmax(0,1fr); }
+  html[lang="ta"] .tf-top { flex-wrap: wrap; }
+  html[lang="ta"] .tf-top h2 { font-size: 32px; }
+  #enquiry :is(input,select,textarea) { max-width: 100%; min-width: 0; }
 }

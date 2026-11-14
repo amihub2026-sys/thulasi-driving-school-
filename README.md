@@ -1,40 +1,21 @@
-# SHIFT Driving School — Purple & Yellow
+THULASI DRIVING SCHOOL — ENGLISH / TAMIL UPDATE
 
-A responsive, single-page HTML/CSS/JavaScript website based on the design preview. No npm, framework, or build process is needed.
+1. Back up your current index.html, style.css and script.js.
+2. Copy index.html, style.css, script.js and language.js into your website folder.
+3. Keep your existing assets folder in the same location. Photos are not included in this update; all your existing image paths are preserved.
+4. Open index.html or run your existing local preview. Refresh with Ctrl+F5.
+5. Use English / தமிழ் in the header. The selected language is remembered in this browser when local storage is available.
 
-## Run
+Updates
+- English and Tamil text for the full page, navigation, FAQs, gallery, form labels, accessibility descriptions and course popups.
+- Dynamic photo toggles, slideshow labels and enquiry messages follow the selected language.
+- Existing explicit pixel font sizes increased by 3px, with Tamil wrapping and mobile header adjustments.
+- Added the course dialog HTML required by your existing JavaScript.
+- Existing animations, image paths and enquiry preview behavior retained.
 
-Extract the ZIP and open `index.html` in a current browser. Keep the assets folder beside the HTML file. For a local web server, run `python -m http.server 8080` in this folder and open http://localhost:8080.
+The enquiry form still prepares a message to copy. It does not send a message automatically.
+Your existing placeholder trainer name and demonstration details remain editable in index.html.
+Tamil text uses fonts available on the visitor's device; no translation service or external font download is required.
+translations.json is an editable reference copy; the active dictionary is embedded in language.js so local file previews work without a server.
 
-## Included
-
-- Purple, sunshine-yellow, and pale lavender theme.
-- Car opening loader, skip button, replay button, and reduced-motion support.
-- Generated learner-car hero artwork stored locally.
-- Responsive mobile navigation and layouts.
-- Course details dialogs and expandable FAQs.
-- Enquiry message builder with validation and copy action.
-- Optional email handoff, once a real enquiry email is configured.
-
-## Customise before real business use
-
-1. Replace SHIFT with the actual school name in `index.html` and the SCHOOL object in `script.js`.
-2. Set the real email, phone, and address in the SCHOOL object in `script.js`. When email is set, the enquiry section displays those details and offers an email-app handoff. It never sends a message automatically.
-3. Review and replace illustrative course descriptions, FAQs, and service details. No fees, ratings, instructor credentials, or pass rates are claimed.
-4. Replace the concept notice and demonstration footer after configuring real business details.
-5. Adjust the palette using the variables at the beginning of `style.css`.
-
-## Enquiry limitations
-
-The included form runs in the browser. It prepares a message that the visitor can copy, or open in their email app if configured. There is no backend, booking database, payment integration, or automatic email delivery. Names and phone numbers are not persisted by this website.
-
-## Deploy
-
-Upload the contents of this folder to a static hosting provider. The entry point is `index.html`. All required visual assets are included; no external fonts, CDNs, or API keys are required.
-
-## Files
-
-- index.html — page content
-- style.css — desktop and mobile styling
-- script.js — loader, menu, course dialogs, FAQs, and enquiry behaviour
-- assets/learner-car.png — generated hero artwork
+Validation: JavaScript syntax checks, static translation coverage and font-size comparison passed. A DOM smoke check verified English/Tamil switching, restoring English, dynamic labels and Tamil enquiry generation. Visual browser verification was unavailable in this execution environment; please review the page with your existing assets on mobile and desktop.
