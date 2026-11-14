@@ -460,3 +460,21 @@ if (footerYear) {
         button.textContent = 'Driving highlights ↑';
     });
 })();
+
+  document.querySelectorAll(".th-trainer").forEach(function (section) {
+    const portrait = section.querySelector(".th-trainer__portrait");
+    const pauseButton = section.querySelector(".th-trainer__pause");
+
+    if (!portrait || !pauseButton) return;
+
+    pauseButton.addEventListener("click", function () {
+      const isPaused = portrait.classList.toggle("is-paused");
+
+      pauseButton.textContent = isPaused ? "Play" : "Pause";
+      pauseButton.setAttribute("aria-pressed", String(isPaused));
+      pauseButton.setAttribute(
+        "aria-label",
+        isPaused ? "Play trainer slideshow" : "Pause trainer slideshow"
+      );
+    });
+  });
