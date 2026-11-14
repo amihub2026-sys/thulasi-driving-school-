@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description"
-        content="SHIFT driving school — learn the skills, own the road. Explore driving courses and plan your first lesson.">
+        content="THULASI Driving School — explore driving lessons and plan your learning journey.">
     <meta name="theme-color" content="#5417ad">
     <title>THULASI — Confidence in every turn</title>
     <link rel="stylesheet" href="style.css">
+    <script src="language.js" defer></script>
     <script src="script.js" defer></script>
 </head>
 
@@ -22,7 +23,7 @@
         </div>
     </div>
     <header>
-  <a href="#home" class="brand" aria-label="SHIFT home">
+  <a href="#home" class="brand" aria-label="THULASI home">
    THULASI<span>╱</span>
     <small>DRIVING SCHOOL</small>
   </a>
@@ -37,6 +38,10 @@
     ☰
   </button>
 
+  <div class="th-language-switch" role="group" aria-label="Website language" translate="no">
+    <button type="button" data-language="en" lang="en" aria-pressed="true">English</button>
+    <button type="button" data-language="ta" lang="ta" aria-pressed="false">தமிழ்</button>
+  </div>
   <nav id="navigation" aria-label="Main navigation">
     <a href="#home">Home</a>
     <a href="#about">About</a>
@@ -350,7 +355,7 @@
 
     <figure class="th-founder__photo">
       <img
-        src="assets/Restored Office Portrait Behind a Wooden Counter.png"
+        src="assets/IMG_0470(1).jpg"
         alt="R. Dhandapani, Founder, seated in his office"
         loading="lazy"
         width="970"
@@ -1029,10 +1034,10 @@
           <h3>Plan your first lesson ↗</h3><label>Your name<input name="name" autocomplete="name"
            placeholder="Enter your name" required maxlength="100"></label><label>Phone number<input
              name="phone" autocomplete="tel" type="tel"  placeholder="Your contact number" required maxlength="25" pattern="[+0-9() -]{7,25}"></label><label>Interested in<select name="course" id="course">
-                        <option>Beginner Driving</option>
-                        <option>Refresher Lessons</option>
-                        <option>Test Preparation</option>
-                        <option>Help me choose</option>
+                        <option value="Beginner Driving">Beginner Driving</option>
+                        <option value="Refresher Lessons">Refresher Lessons</option>
+                        <option value="Test Preparation">Test Preparation</option>
+                        <option value="Help me choose">Help me choose</option>
                          </select></label><label>Your question <span>(optional)</span><textarea name="message" rows="3" maxlength="1500" placeholder="Tell us what you’d like to learn"></textarea></label><button class="button purple" type="submit">Prepare enquiry <span>↗</span></button>
                 <p class="form-note" id="form-note">Preview mode: prepare a message to copy. Nothing is sent.</p>
                 <div id="enquiry-result" hidden><label>Your enquiry<textarea id="prepared-message" rows="7"
@@ -1183,6 +1188,12 @@
     <a href="#home">Back to top ↑</a>
   </div>
 </footer>
+<dialog id="course-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+  <button type="button" class="close-dialog" aria-label="Close course details">×</button>
+  <h2 id="dialog-title"></h2>
+  <p id="dialog-description"></p>
+  <a id="dialog-enquire" href="#contact" class="button purple">Enquire about this course <span aria-hidden="true">↗</span></a>
+</dialog>
 </body>
 
 </html>
