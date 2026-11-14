@@ -507,3 +507,226 @@ if (footerYear) {
     setupCourseCards();
   }
 })();
+/* =========================================
+   WEBSITE ENTRANCE ANIMATIONS
+========================================= */
+(function () {
+  function setupWebsiteAnimations() {
+    const motion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    );
+
+    if (
+      motion.matches ||
+      !("IntersectionObserver" in window) ||
+      !Element.prototype.animate
+    ) {
+      return;
+    }
+
+    const registered = new WeakSet();
+    const settings = new WeakMap();
+    const running = new Set();
+
+    const entrances = {
+      up: {
+        opacity: 0,
+        translate: "0 34px"
+      },
+
+      left: {
+        opacity: 0,
+        translate: "-40px 0"
+      },
+
+      right: {
+        opacity: 0,
+        translate: "40px 0"
+      },
+
+      zoom: {
+        opacity: 0,
+        scale: "0.95"
+      },
+
+      soft: {
+        opacity: 0,
+        translate: "0 14px"
+      }
+    };
+
+    function play(element, type, delay) {
+      if (motion.matches) return;
+
+      const firstFrame = entrances[type] || entrances.up;
+
+      const lastFrame = {
+        opacity: 1
+      };
+
+      if ("translate" in firstFrame) {
+        lastFrame.translate = "0 0";
+      }
+
+      if ("scale" in firstFrame) {
+        lastFrame.scale = "1";
+      }
+
+      const animation = element.animate(
+        [firstFrame, lastFrame],
+        {
+          duration: 700,
+          delay,
+          easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+          fill: "backwards"
+        }
+      );
+
+      running.add(animation);
+
+      animation.finished
+        .catch(() => {})
+        .finally(() => {
+          running.delete(animation);
+        });
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+
+          const element = entry.target;
+          const options = settings.get(element);
+
+          observer.unobserve(element);
+
+          if (options) {
+            play(element, options.type, options.delay);
+          }
+        });
+      },
+      {
+        threshold: 0,
+        rootMargin: "0px 0px -35px 0px"
+      }
+    );
+
+    function register(selector, type, stagger = 0) {
+      document.querySelectorAll(selector).forEach((element, index) => {
+        if (registered.has(element)) return;
+
+        registered.add(element);
+
+        settings.set(element, {
+          type,
+          delay: Math.min(index * stagger, 360)
+        });
+
+        observer.observe(element);
+      });
+    }
+
+    function start() {
+      /* ABOUT: photo from left, content from right */
+      register("#about .about-visual", "left");
+      register("#about .about-content", "right");
+
+      /* COURSES: heading first, then individual cards */
+      register("#courses .dt-heading", "soft");
+      register("#courses .dt-step", "up", 120);
+
+      /* FOUNDER: portrait zoom and text slide */
+      register("#founder .th-founder__photo", "zoom");
+      register("#founder .th-founder__content", "right");
+
+      /* WHY CHOOSE US: feature and staggered benefits */
+      register("#why-us .tw-heading", "soft");
+      register("#why-us .tw-feature", "left");
+      register("#why-us .tw-benefit", "up", 110);
+      register("#why-us .tw-enquiry", "soft");
+
+      /* LESSON BANNER */
+      register(".lesson-banner-top", "up");
+      register(".lesson-stat", "zoom", 100);
+
+      /* GALLERY: each photo enters when it becomes visible */
+      register("#gallery .tg-heading", "soft");
+      register("#gallery .tg-card", "up", 70);
+      register("#gallery .tg-bottom", "soft");
+
+      /* FAQ: title and questions */
+      register("#faqs > div:first-child", "left");
+      register("#faqs .faqs details", "up", 80);
+
+      /* PROGRAMS: cards appear one by one */
+      register("#programs .programs-heading", "soft");
+      register("#programs .program-card", "up", 120);
+      register("#programs .programs-help", "soft");
+
+      /* TRAINERS: copy and portrait */
+      register(".th-trainer__intro", "left");
+      register(".th-trainer__portrait", "zoom");
+
+      /* CONTACT */
+      register("#contact > div:first-child", "left");
+      register("#enquiry", "right");
+
+      /* FOOTER */
+      register(".THULASI-footer .tf-top", "up");
+      register(".THULASI-footer .tf-grid > div", "soft", 80);
+    }
+
+    /* Wait until your existing opening loader finishes */
+    const loader = document.querySelector("#loader");
+
+    if (
+      !loader ||
+      loader.classList.contains("done") ||
+      document.body.classList.contains("intro-finished")
+    ) {
+      start();
+    } else {
+      const introObserver = new MutationObserver(() => {
+        if (
+          loader.classList.contains("done") ||
+          document.body.classList.contains("intro-finished")
+        ) {
+          introObserver.disconnect();
+          start();
+        }
+      });
+
+      introObserver.observe(document.body, {
+        attributes: true,
+        attributeFilter: ["class"]
+      });
+
+      introObserver.observe(loader, {
+        attributes: true,
+        attributeFilter: ["class"]
+      });
+    }
+
+    /* Respect changes to the user's motion preference */
+    motion.addEventListener("change", (event) => {
+      if (!event.matches) return;
+
+      observer.disconnect();
+
+      running.forEach((animation) => {
+        animation.cancel();
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener(
+      "DOMContentLoaded",
+      setupWebsiteAnimations,
+      { once: true }
+    );
+  } else {
+    setupWebsiteAnimations();
+  }
+})();
